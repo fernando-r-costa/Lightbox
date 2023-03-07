@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="./style/style-lightbox.css">
+
+<body>
+  <!-- objeto que vai abrir o modal -->
+  <div class="destaque" id="destaque"><img src="./images/image-product-1.jpg" class="hover-shadow cursor"></div> 
+
+  <!-- modal dos slides -->
+  <div class="modal" id="myModal">
+    <span class="close cursor" id="close-cursor">&times;</span>
+    <div class="modal-content">
+      <!--slides-->
+      <div class="mySlides">
+        <img src="./images/image-product-1.jpg">
+      </div>
+      <div class="mySlides">
+        <img src="./images/image-product-2.jpg">
+      </div>
+      <div class="mySlides">
+        <img src="./images/image-product-3.jpg">
+      </div>
+      <div class="mySlides">
+        <img src="./images/image-product-4.jpg">
+      </div>
+      <a class="prev" id="prev">&#10094;</a>
+      <a class="next" id="next">&#10095;</a>
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+
+      <!--thumbnails-->
+      <div class="column">
+        <img class="demo cursor" id="thumbnail1" src="./images/image-product-1-thumbnail.jpg">
+      </div>
+      <div class="column">
+        <img class="demo cursor" id="thumbnail2" src="./images/image-product-2-thumbnail.jpg">
+      </div>
+      <div class="column">
+        <img class="demo cursor" id="thumbnail3" src="./images/image-product-3-thumbnail.jpg">
+      </div>
+      <div class="column">
+        <img class="demo cursor" id="thumbnail4" src="./images/image-product-4-thumbnail.jpg">
+      </div>
+    </div>
+  </div>
+
+  <script src="./script/script-lightbox.js"></script>
+
+</body>
+
+</html>
