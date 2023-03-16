@@ -1,8 +1,8 @@
-# Lightbox test
+# Lightbox teste
 
-This is a lightbox solution.
+Esta é uma solução lightbox.
 
 
-## Author
+## Autor
 
 - LinkedIn - [Fernando R Costa](https://www.linkedin.com/in/fernando-r-costa/)
